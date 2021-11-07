@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "usermanager-17472": {
+      "hosting": {
+        "user-manager-app": [
+          "usermanager-17472"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "usermanager-17472"
+  }
+}

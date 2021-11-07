@@ -1,0 +1,75 @@
+.btn-branding {
+    --background: #98CB9B;
+    --border-color: #3ba342;
+    --text-transform: capitalize;
+    --padding-vertical: 0.9rem;
+    --padding-horizontal: 1rem;
+    --font-size: 0.9rem;
+    --font-weight: bolder;
+    --font-family: 'Comic Sans', monospace;
+    --height: 2.4rem;
+    -moz-box-align: center;
+    text-align: center;  
+    width: fit-content;
+}
+
+.btn-branding:hover {
+    --background: #F3AD98;
+}
+
+.btn-branding:active {
+    --border-color: #F3AD98;
+    --box-shadow-color: #f07e5c;
+}
+.new-user{
+    margin-bottom: 2rem;
+    float:inherit;
+}
+.edit {
+    --height: 1rem;
+    margin-right: 0.2rem; 
+    --background: #40a5a8;
+    --border-color: #126164;
+}
+.delete {
+    margin-right: 0.2rem; 
+    --height: 1rem;
+    --background: #ad4f4f;
+    --border-color: #7c2929;
+}
+.content-wrapper{
+    text-align:center;
+    height: 200px;  
+    padding-top: 40px; 
+}
+.current-users{
+    text-align: left;
+    padding-top: 20px;
+}
+  .item {
+    margin: 10px;
+    cursor: pointer;
+    height: fit-content;
+    width: fit-content;
+  }
+  h1{
+    padding: 0.3rem;
+    margin-bottom: 3rem;
+  }
+  .user-details{
+    display: flex;
+    flex-wrap: wrap
+  }
+  .search-section{
+    width: fit-content;
+    text-align: center;
+  }
+  .search-btn{
+    float: initial;
+    margin: 1rem;
+}
+.search-filters{
+    width: fit-content;
+    margin-left: 1rem;
+    margin-right: 0rem;
+}

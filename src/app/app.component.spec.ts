@@ -19,13 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title 'user-manager-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('user-manager-app');
-  });
-
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('user-manager-app app is running!');
+    expect(app.name).toEqual('user-manager-app');
   });
 });

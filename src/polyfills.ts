@@ -63,3 +63,7 @@ import 'zone.js';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+
+ import '@cds/core/icon/register.js';
+ import '@cds/core/button/register.js';
+ 

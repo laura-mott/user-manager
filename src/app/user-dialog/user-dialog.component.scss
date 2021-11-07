@@ -1,0 +1,30 @@
+cds-button {
+    --padding-vertical: 0.9rem;
+    --padding-horizontal: 1rem;
+    --font-size: 0.7rem;
+    --font-family: 'Comic Sans', monospace;
+    --height: 1rem;
+    text-align: center; 
+    margin-right: 0.2rem; 
+}
+
+cds-button:hover {
+    --background: #F3AD98;
+}
+
+cds-button:active {
+    --border-color: #F3AD98;
+    --box-shadow-color: #f07e5c;
+}
+
+.submit {
+    --background: #40a5a8;
+    --border-color: #126164;
+}
+.cancel {
+    --background: #ada44f;
+    --border-color: #7c6f29;
+}
+.field{
+    font-size: medium;
+}

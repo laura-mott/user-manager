@@ -1,0 +1,7 @@
+<mat-card class="item" *ngIf="user">
+    <h3>{{user.name}}</h3>
+    <p>{{user.role}}</p>
+
+    <cds-button class="edit" (click)="editUser(user)">EDIT</cds-button>
+    <cds-button class="delete" (click)="deleteUser(user)">DELETE</cds-button>
+</mat-card>

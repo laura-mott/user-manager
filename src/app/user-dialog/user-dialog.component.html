@@ -1,0 +1,14 @@
+<mat-form-field>
+    <mat-label class="field" >Name</mat-label>
+    <input matInput cdkFocusInitial [(ngModel)]="data.user.name" required />
+  </mat-form-field>
+  
+  <mat-form-field>
+    <mat-label class="field">Role</mat-label>
+    <textarea matInput [(ngModel)]="data.user.role" required ></textarea>
+  </mat-form-field>
+  
+  <div mat-dialog-actions>
+    <cds-button class="submit" mat-button [mat-dialog-close]="{ user: data.user }">SUBMIT</cds-button>
+    <cds-button class="cancel" mat-button (click)="cancel()">CANCEL</cds-button>
+  </div>
